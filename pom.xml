@@ -57,4 +57,10 @@
 			</plugin>
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>nexusrepo</id>
+			<url>http://localhost:8081/repository/java-repo/</url>
+		</repository>  
+  </distributionManagement>
 </project>
